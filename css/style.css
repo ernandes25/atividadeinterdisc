@@ -1,0 +1,76 @@
+body {
+  background-color: aliceblue;
+  font-family: sans-serif;
+}
+
+.form {
+  width: 320px;
+  margin: auto;
+  padding: 10px;
+}
+
+.card {
+  box-shadow: 1px 1px 5px #ccc;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+.card-top {
+  text-align: center;
+}
+.imglogin {
+  border-radius: 50px;
+  width: 80px;
+  box-shadow: 1px 2px 5px #ccc;
+  height: 80px;
+}
+.title {
+  color: blue;
+}
+.card-group > label {
+  width: 100;
+  color: rgb(10, 91, 80);
+  display: block;
+}
+
+.card-group > input {
+  border-radius: 5px;
+  width: 250px;
+  height: 25px;
+  padding: 5px;
+}
+.card-group {
+  margin-bottom: 20px;
+}
+
+.card-group button {
+  padding: 10px;
+  width: 260px;
+  border-radius: 50px;
+  color: white;
+  background-image: linear-gradient(to right, red, blue);
+}
+
+button:hover {
+  background-image: linear-gradient(to right, blue, red);
+}
+.card-group CANCELAR {
+  padding: 10px;
+  width: 260px;
+  border-radius: 50px;
+  color: white;
+  background-image: linear-gradient(to right, red, blue);
+}
+
+.welcome {
+  padding: 150px;
+  background-color: darkolivegreen;
+  height: 270px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: large;
+}
+label#sixNumber {
+  font-size: 60%;
+  color: black;
+}
